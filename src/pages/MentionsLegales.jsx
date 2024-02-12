@@ -1,5 +1,4 @@
 import Accordion from 'react-bootstrap/Accordion';
-import { Link } from 'react-router-dom';
 import { useContext } from 'react';
 import { UserContext } from '../App';
 
@@ -24,10 +23,10 @@ function MentionsLegales(){
             <Accordion.Item eventKey="1">
             <Accordion.Header>Hébergeur</Accordion.Header>
             <Accordion.Body>
-                    <p className='text-left fs-4'>Alwyse Data</p>
+                    <p className='text-left fs-4'>Vercel</p>
                 <ul className='text-left'>
-                    <li>91 rue du Faubourg Saint Honoré</li>
-                    <li><a className='text-primary' href='www.alwaysdata.com'>www.alwaysdata.com</a></li>
+                    
+                    <li><a className='text-primary' href='https://vercel.com/'>www.vercel.com</a></li>
                 </ul>
             </Accordion.Body>
             </Accordion.Item>
